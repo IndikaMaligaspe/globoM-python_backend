@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "*"
+sqlalchemy = "*"
+python-dotenv = "*"
+uvicorn = "*"
+alembic = "*"
+psycopg2-binary = "*"
+pytest = "*"
+pytest-sanic = "*"
+sanic = "*"
+pytest-alembic = "*"
+pydantic = "*"
+black = "*"
+flake8 = "*"
+python-multipart = "*"
+python-jose = "*"
+passlib = "*"
+pytest-mock = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
